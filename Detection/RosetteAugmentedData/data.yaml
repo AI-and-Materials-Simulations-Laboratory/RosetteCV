@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['rosette_object']
+
+roboflow:
+  workspace: rosette-identification-matdat-2023-4kpql
+  project: rosette-scans
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rosette-identification-matdat-2023-4kpql/rosette-scans/dataset/2

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['inner', 'lobe', 'outer']
+
+roboflow:
+  workspace: rosette-identification-matdat-2023-4kpql
+  project: lobe-segmentation
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rosette-identification-matdat-2023-4kpql/lobe-segmentation/dataset/3
