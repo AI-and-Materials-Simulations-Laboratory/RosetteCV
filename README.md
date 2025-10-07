@@ -1,6 +1,6 @@
 # RosetteCV
 
-The project demonstrates the development of a data pipeline that automates that detection of CSC Rosettes and conducts preliminary analytics to derive insights like lobe to lobe distance and rosette diameter. The pipeline includes the below steps:
+The project demonstrates the development of a data pipeline that automates the detection of CSC Rosettes and conducts preliminary analytics to derive insights like lobe to lobe distance and rosette diameter. The pipeline includes the following steps:
 1. Data Input
 2. Rosette Detection
 3. Human in the loop verification
@@ -18,7 +18,7 @@ The dataPipeline.ipynb contains the code necessary to run the data pipeline usin
 The Original Dataset folder contains the images and labels of the original 32 images that were utilized in model development. This folder contains the raw data prior to any data processing/augmentation.
 
 The Detection folder contains the following:
-1. RosetteAugmentedData: This folder contains the preprocessed and augmented dataset used in detection model training and evaluation. The README within this folder goes into more detail about the dataset including information like dataset split, preprocessing techniques, and augmentation techniques.
+1. RosetteAugmentedData: This folder contains the preprocessed and augmented dataset used in detection model training and evaluation. The README within this folder goes into more detail about the dataset, including information like dataset split, preprocessing techniques, and augmentation techniques.
 2. Yolov8Detection: This folder contains the Yolov8 detection model evaluation and testing results. The folder also contains results from training in the "yolov8m_v8_25e_rosetteAugmented" subfolder. Within this folder are also the finalized trained model weights for Yolov8.
 3. Yolov9Detection: This folder contains the Yolov9 detection model evaluation and testing results. The folder also contains results from training in the "yolov9c_v9_25e_rosetteAugmented" subfolder. Within this folder are also the finalized trained model weights for Yolov9.
 4. detection.ipynb: This notebook contains the training, evaluation, and testing code for the Yolov8 and Yolov9 Detection Models.
